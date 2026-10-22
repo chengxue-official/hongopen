@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">红果短剧</string>
+    <string name="nav_search">搜索</string>
+    <string name="nav_history">历史</string>
+    <string name="nav_favorite">收藏</string>
+    <string name="nav_rank">榜单</string>
+    <string name="nav_log">日志</string>
+    <string name="nav_update">检查更新</string>
+
+    <!-- 榜单 -->
+    <string name="rank_title">榜单</string>
+    <string name="rank_empty">榜单暂无数据</string>
+    <string name="rank_load_failed">榜单加载失败，请重试</string>
+    <string name="rank_no">NO.%1$s</string>
+    <string name="rank_page_info">第 %1$s / %2$s 页</string>
+    <string name="rank_updated">%1$s</string>
+    <string name="log_title">调试日志</string>
+    <string name="log_clear">清空</string>
+    <string name="log_upload">上传日志</string>
+    <string name="log_empty">（暂无日志）</string>
+    <string name="log_interface_info">Base URL: %1$s\ndevice_id: %2$s\niid: %3$s\nX-Gorgon: %4$s</string>
+    <string name="search_hint">搜索短剧</string>
+    <string name="empty">暂无内容</string>
+    <string name="empty_history">还没有观看记录，去首页看看吧</string>
+    <string name="empty_favorite">还没有收藏内容，去首页看看吧</string>
+    <string name="load_failed">加载失败，请重试</string>
+    <string name="back">返回</string>
+    <string name="continue_watch">继续播放</string>
+    <string name="episode_count">共 %1$s 集</string>
+    <string name="play_error">播放失败：%1$s</string>
+    <string name="aspect_fit">适应</string>
+    <string name="aspect_stretch">拉伸</string>
+    <string name="aspect_original">原始</string>
+    <string name="aspect_fill">填充</string>
+    <string name="lan_input">跨屏输入</string>
+    <string name="lan_input_unavailable">无法启动跨屏输入（未获取到局域网地址，请确认电视已连 Wi-Fi，且与手机在同一网络）</string>
+    <string name="keyboard">键盘</string>
+    <string name="key_delete">删除</string>
+    <string name="hot_search">大家都在搜</string>
+    <string name="scan_title">手机扫码输入</string>
+    <string name="scan_hint">用手机微信/相机扫二维码，在打开的页面输入剧名，点「发送到电视」即可。\n手机需与电视连接同一个 Wi-Fi。</string>
+    <string name="scan_url_hint">也可手动在手机浏览器输入：%1$s</string>
+    <string name="community_hint">交流群 1130515703 · 免费分享，谨防受骗</string>
+
+    <!-- 收藏 -->
+    <string name="favorite">收藏</string>
+    <string name="favorited">已收藏</string>
+    <string name="favorite_added">已加入收藏</string>
+    <string name="favorite_removed">已取消收藏</string>
+    <string name="title_favorite">我的收藏</string>
+    <string name="title_history">观看历史</string>
+
+    <!-- 续播 -->
+    <string name="continue_ep">继续观看 第 %1$s 集</string>
+    <string name="resume_hint">继续上次进度：第 %1$s 集 %2$s</string>
+    <string name="watched_ep">上次看到第 %1$s 集</string>
+
+    <!-- 清空 -->
+    <string name="clear">清空</string>
+    <string name="clear_history_confirm">确定清空全部观看历史吗？</string>
+    <string name="clear_search_history_confirm">确定清空全部搜索记录吗？</string>
+    <string name="cleared">已清空</string>
+    <string name="search_history">搜索记录</string>
+
+    <!-- 播放器提示 -->
+    <string name="last_episode">已经是最后一集了</string>
+    <string name="first_episode">已经是第一集了</string>
+    <string name="ep_played_out">已播放完最后一集</string>
+
+    <!-- 播完推荐 -->
+    <string name="recommend_title">播完推荐</string>
+    <string name="recommend_loading">正在为你挑几部热播剧…</string>
+    <string name="recommend_empty">暂时没有推荐，去首页逛逛吧</string>
+    <string name="recommend_close">关闭</string>
+    <string name="recommend_open_failed">打开失败，请稍后再试</string>
+    <string name="seek_forward">快进 %1$s</string>
+    <string name="seek_backward">快退 %1$s</string>
+    <string name="menu_fill">画面填充</string>
+    <string name="menu_quality">清晰度</string>
+    <string name="quality_auto">自动</string>
+    <string name="quality_480">480P</string>
+    <string name="quality_720">720P</string>
+    <string name="quality_1080">1080P</string>
+    <string name="quality_origin">原画</string>
+    <string name="quality_switched">清晰度已切换为%1$s，正在重新起播</string>
+    <string name="menu_danmaku_on">弹幕：全屏</string>
+    <string name="menu_danmaku_off">弹幕：隐藏</string>
+    <string name="menu_danmaku_top">弹幕：上方</string>
+    <string name="menu_speed">倍速</string>
+    <string name="menu_more">更多设置</string>
+    <string name="set_timer">定时停止</string>
+    <string name="set_timer_off">关闭</string>
+    <string name="set_timer_minutes">%1$d 分钟</string>
+    <string name="set_timer_episodes">%1$d 集</string>
+    <string name="set_timer_active_min">剩余 %1$d 分钟</string>
+    <string name="set_timer_active_ep">剩余 %1$d 集</string>
+    <string name="set_timer_done">定时到点（%1$s），已暂停</string>
+    <string name="set_dm_size">弹幕字号</string>
+    <string name="set_dm_alpha">弹幕透明度</string>
+    <string name="set_keymap">按键自定义</string>
+    <string name="set_keymap_edit">修改按键功能</string>
+    <string name="set_keymap_tip">长按菜单键始终可以打开菜单，改键不会把自己锁在播放页。</string>
+    <string name="set_keymap_reset">恢复默认</string>
+    <string name="set_keymap_reset_done">已恢复默认按键</string>
+    <string name="later">稍后看</string>
+    <string name="later_added">已加入稍后看</string>
+    <string name="later_removed">已从稍后看移除</string>
+    <string name="later_added_btn">已加入</string>
+    <string name="title_later">稍后看</string>
+    <string name="empty_later">还没有「稍后看」的剧</string>
+    <string name="later_tip">还没决定追的剧先放这里，不占收藏夹</string>
+    <string name="menu_decoder">解码</string>
+    <string name="menu_decoder_hard">硬解</string>
+    <string name="menu_decoder_soft">软解</string>
+    <string name="menu_decoder_switched">解码方式已切换为%1$s，正在重新起播</string>
+    <string name="decoder_auto_soft">硬解失败，已自动切换为软解重试</string>
+    <string name="decoder_retry_avc">硬解失败，已改用 H.264 片源重试</string>
+    <string name="menu_exit">退出播放</string>
+    <string name="press_again_to_exit">再按一次返回键退出播放</string>
+
+    <!-- 选集弹窗 -->
+    <string name="menu_episodes">选集</string>
+    <string name="ep_picker_title">选集</string>
+    <string name="ep_picker_subtitle">正在看第 %1$s 集</string>
+    <string name="ep_picker_close">关闭</string>
+    <string name="ep_picker_jump">跳转集数</string>
+    <string name="ep_picker_prev_group">‹ 上一组</string>
+    <string name="ep_picker_next_group">下一组 ›</string>
+    <string name="ep_picker_range">第 %1$s—%2$s 集 / 共 %3$s 集</string>
+    <string name="ep_picker_jump_hint">输入集数后按确定跳转</string>
+    <string name="ep_picker_jump_invalid">没有这一集</string>
+</resources>
