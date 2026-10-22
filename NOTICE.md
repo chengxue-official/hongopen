@@ -10,7 +10,10 @@
 与 drpys 的 JavaScript 实现 `spider/js/红果果[短].js`。参考到的部分包括：
 
 - 设备注册与播放模型接口的请求形态（`device_register` → `multi_video_model/preload`）；
-- 请求签名三件套 `x-gorgon` / `x-helios` / `x-medusa` 的算法结构与参数集合；
+- 请求签名三件套 `x-gorgon` / `x-helios` / `x-medusa` 的算法结构与参数集合（其中
+  `x-helios` / `x-medusa` 的核心实现是对 HGTV 发布包 `E0.G0` 反编译结果的**逐行移植**，
+  见 `app/src/main/java/com/houg/tv/sign/MedusaSign.java`：服务端要求三件套齐备，
+  缺任意一个会返回 HTTP 200 但 0 字节空体）；
 - 媒体地址解密：`key_seed` → `SHA-512(seed ‖ 常量)` 取前 16 字节作 AES-CBC 密钥，以及 `spade_a` 的逐字节还原流程；
 - MP4 CENC 样本解析涉及的盒子顺序（`moov/trak/stbl/saiz/saio/senc`）与子样本偏移计算方式。
 
